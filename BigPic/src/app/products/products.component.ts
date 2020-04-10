@@ -20,7 +20,7 @@ export class ProductsComponent implements OnInit {
     this._textFilter = value;
     console.log(value);
     this.col=value
-    // this.filteredProducts=this.performFilter(this._textFilter);
+    // this.filteredProducts=this.performFilter(this._textFilter); modified comment
   }
   
   
